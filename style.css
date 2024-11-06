@@ -13,6 +13,14 @@ body {
     border-radius: 8px;
 }
 
+.form-group:first-child {
+    display: flex;
+    font-size: 30px;
+    font-weight: 700;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
 .form-group {
     margin-bottom: 35px;    
 }
