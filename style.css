@@ -78,9 +78,10 @@ input[type="email"] {
     margin: 50px auto 0 auto;
 }
 
-.next_btn a{
+a{
     text-decoration: none;
     color: #fff;
+    align-items: center;
 }
 
 
