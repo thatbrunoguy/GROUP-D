@@ -8,11 +8,10 @@ body {
 .contact-form {
     max-width: 400px;
     background-color: #fff;
-    margin: 200px auto 0 auto;
+    margin: 150px auto 0 auto;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 8px;
-    font-family: Arial, sans-serif;
 }
 
 .form-field:first-child{
@@ -42,13 +41,6 @@ input, textarea {
     font-size: 16px;
 }
 
-.error {
-    color: red;
-    font-size: 14px;
-    margin-top: 5px;
-    display: none;
-}
-
 .submit-div{
     display: flex;
     justify-content: right;
@@ -68,6 +60,7 @@ input, textarea {
 
 .submit-button:hover {
     background-color: #a8b6a9;
+    transition: background-color 1s ease;
 }
 
 .prev_btn{
